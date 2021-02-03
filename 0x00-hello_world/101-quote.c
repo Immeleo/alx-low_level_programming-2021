@@ -7,13 +7,13 @@ int _putchar(char c);
  */
 int main(void)
 {
-  int i;
-  char array[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+int i;
+char array[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
-  for (i = 0; array[i] != '\0'; i++)
-    _putchar(array[i]);
-  _putchar('\n');
-  return (1);
+for (i = 0; array[i] != '\0'; i++)
+_putchar(array[i]);
+_putchar('\n');
+return (1);
 }
 /**
  * _putchar - writes the character c to stdout
@@ -24,5 +24,5 @@ int main(void)
  */
 int _putchar(char c)
 {
-  return (write(1, &c, 1));
+return (write(1, &c, 1));
 }
