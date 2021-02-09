@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <holberton.h>
+/*
+*main- provided in holberton.h
+* Return: always return 0.
+*/
+void print_alphabet_x10(void)
+{
+char ch;
+int count = 10;
+while (count < 10)
+{
+for (ch = 'a'; ch <= 'z'; ch++)
+{
+printf("Lowercase characters : \n");
+printf("%c ", ch);
+printf("\n");
+}
+}
+return (0);
+}

@@ -1,16 +1,15 @@
-#include <stdio.h>
-#include <string.h>
+#include "holberton.h"
 /*
-*Main - prints all alphabets in lower case.
-*Return : always zero
+* print_alphabet - write a function that prints the alphabet, in lowercase
 */
-int main(void)
+void print_alphabet(void)
 {
-char ch;
-printf("Lowercase characters: \n");
-for (ch = 'a'; ch <= 'z'; ch++)
+char c = 'a';
+
+while (c <= 'z')
 {
-printf("%c ", ch);
+_putchar(c);
+c++;
 }
-return (0);
+_putchar('\n');
 }
